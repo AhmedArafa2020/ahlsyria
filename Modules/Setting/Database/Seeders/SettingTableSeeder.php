@@ -36,11 +36,11 @@ class SettingTableSeeder extends Seeder
             ]);
             Setting::create([
                 'name' => 'aws_access_key_id',
-                'value' => 'AKIA3OGN2RWSOIIG3A4J',
+                'value' => '',//AKIA3OGN2RWSOIIG3A4J
             ]);
             Setting::create([
                 'name' => 'aws_secret_key',
-                'value' => 'e5hV1auxMkbQ+kDmzW0WjTJRmO8lEN28XVr7w6Jz',
+                'value' => '',//e5hV1auxMkbQ+kDmzW0WjTJRmO8lEN28XVr7w6Jz
             ]);
             Setting::create([
                 'name' => 'aws_region',
@@ -51,8 +51,8 @@ class SettingTableSeeder extends Seeder
                 'value' => 'onest-starter-kit',
             ]);
             Setting::create([
-                'name' => 'aws_endpoint',
-                'value' => 'https://s3.ap-southeast-1.amazonaws.com',
+                'name' => 'aws_endpoint', 
+                'value' => '',//https://s3.ap-southeast-1.amazonaws.com
             ]);
             Setting::create([
                 'name' => 'recaptcha_sitekey',
