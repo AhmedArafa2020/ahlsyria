@@ -1,0 +1,130 @@
+:root {
+    /* Colors */
+    --body-background-color: #ffffff;           /* لون الخلفية */
+    --primary-color: #093353;                  /* اللون الأساسي */
+    --custom-btn-bg-hover-color: #29abe2;      /* لون خلفية الأزرار عند التحويم */
+    --white-color: white;                      /* اللون الأبيض */
+    --title-text-color: #093353;               /* لون نص العناوين */
+    --p-color: #4a5e69;                        /* لون الفقرات */
+    --shadow-color: #2424245f;                 /* لون الظل */
+    --search-input: #2e526d;                   /* لون المدخلات */
+    --svg-color: #093353;                      /* لون الأيقونات SVG */
+    --h-primary-color: #093353;                /* لون العناوين الأساسية */
+}
+
+body {
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: var(--body-background-color);
+}
+
+.content-section, .main-section {
+    background-color: var(--white-color);
+    color: #000;
+    box-shadow: 0px 4px 15px var(--shadow-color);
+    border-radius: 12px;
+    min-height: 100vh;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.section {
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px var(--shadow-color);
+    padding: 15px;
+}
+
+.video-section {
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.video-section video {
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px var(--shadow-color); 
+}
+
+.video-section h5 {
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+}
+
+.objectives ul {
+    padding: 0;
+    color: var(--p-color);
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-section, .button-section {
+    display: flex;
+    align-items: center;
+}
+
+.button-section .btn {
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.button-section .btn:hover {
+    background-color: var(--custom-btn-bg-hover-color);
+    color: var(--white-color);
+}
+
+.course-content button {
+    color: var(--primary-color);
+    font-weight: bold;
+    border: none; 
+    transition: color 0.3s; 
+}
+
+.course-content .btn-link {
+    color: var(--primary-color);
+}
+
+.course-content .btn-link:hover {
+    color: var(--custom-btn-bg-hover-color);
+    text-decoration: none;
+}
+
+.course-content li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    color: var(--p-color);
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        flex: 1 1 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .button-section {
+        flex: 1 1 100%; 
+    }
+
+    .small-btn {
+        font-size: 12px; 
+        padding: 5px 10px; 
+    }
+
+    .welcome-text {
+        font-size: 14px; 
+    }
+}
+
+
+
+.section:hover {
+    box-shadow: 0px 6px 20px var(--shadow-color); 
+}

@@ -1,0 +1,563 @@
+
+
+/*---------------------------------------
+        container page
+-----------------------------------------*/
+
+main section.container-page{
+    max-width: 1157px;
+
+}
+
+div.ContainerHeaderCard{
+    margin-bottom: 30px;
+    row-gap: 20px;
+    column-gap: 30px;
+    align-items:center;
+}
+
+.svg-fill{
+  fill: var(--p-color);
+}
+div.ContainerHeaderCard h1{
+    color: var(--black-color);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+    font-family: var(--body-font-family);
+    margin: 0;
+    margin-right: 20px;
+}
+
+div.ContainerHeaderCard div.container-button{
+    width:650px;
+    gap: 20px;
+}
+
+div.container-button span.line{
+    border-left: 1px solid rgba(168, 168, 168, 42%);
+}
+
+div.container-button div.box-button1{
+    border: 1px solid rgba(168, 168, 168, 42%);
+    border-radius: 8px;
+}
+
+div.box-button1 button{
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--header-footer-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--button-header-courses);
+    transition: background-color 0.3s;
+}
+
+div.container-button div.box-button2{
+    border: 1px solid rgba(168, 168, 168, 42%);
+    border-radius: 8px;
+}
+
+div.box-button2 button{
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    width: 35px;
+    height: 100%;
+    padding: 10px 15px ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+
+
+div.box-button2 button svg{
+    width: 27px;
+    height: 27px;
+}
+
+.svg-courses-stroke{
+    stroke: var(--button-header-courses);
+  }
+
+.svg-courses-fill{
+    fill: var(--button-header-courses);
+  }
+
+/*---------------------------------------
+        CARD 
+-----------------------------------------*/
+
+.con-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.body{
+    row-gap: 20px;
+}
+
+div.box-card {
+  width: 365px;
+  height: 476px;
+  border: 1px solid var(--border-card-courses);
+  border-radius: 8px;
+  padding: 15px 11px;
+  gap: 10px;
+  box-shadow: 0px 0.89px 18.69px 0px var(--shadow-courses-card1)
+  ,0px 8.9px 12.46px 0px var(--shadow-courses-card2);
+  background-color: var(--body-background-color);
+}
+
+div.box-card div.box-imag {
+  position: relative;
+  width: 336.5px;
+  height: 224px;
+  border: none;
+}
+
+div.box-card div.box-imag img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 4px 8px var(--shadow-color2);
+  border-radius: 4px;
+}
+
+div.box-card div.box-imag::after {
+  content: "";
+  display: block;
+  background-image: url('your-image.jpg'); /* استبدل بالصورة التي تريدها */
+  background-size: cover;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100%; /* يمكنك التحكم في ارتفاع الانعكاس */
+  transform: scaleY(-1); /* يعكس الصورة رأسًا على عقب */
+  opacity: 0.4; /* يتحكم في شفافية الانعكاس */
+  filter: blur(2px); /* يعطي تأثير ضبابي بسيط للانعكاس */
+}
+
+div.box-card img.card{
+    width: 336.5px;
+    height: 224px;
+    border: none;
+    border-radius: 4px;
+    backdrop-filter: blur(20.64111328125px);
+    box-shadow: 0px 4px 8px var(--Shadow-color);
+}
+
+div.box-card div.box-imag button.icon-img{
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(217, 217, 217, 0.322);
+    backdrop-filter: blur(15px);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-imag button.icon-img svg{
+    width: 24px;
+    height: 24px;
+}
+
+/*                        */
+
+
+div.bodyCard p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    color:var(--darck-color);
+    height: 35px;
+}
+
+div.bodyCard div.box-personal{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0rem;
+    height: 50px;
+}
+
+div.bodyCard div.box-personal span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #29ABE2;
+}
+
+div.bodyCard div.box-personal h5{
+    margin: 0 !important;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--p-color-courses);
+}
+
+div.bodyCard div.box-info{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 42px;
+    margin-bottom: 1rem;
+}
+
+div.box-info div.info{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+        flex-direction: row;
+}
+
+div.box-info div.info svg{
+    width: 20px;
+    height: 20px;
+  
+}
+
+div.box-info div.info p{
+    margin: 0;
+    color: var(--p-color);
+    font-weight: 400;
+}
+div.bodyCard a.indexa{
+  z-index: 100;
+}
+div.bodyCard a p{
+    color: #29ABE2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Cairo";
+    margin: 0;
+    cursor: pointer;
+}
+
+div.bodyCard a svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------
+        pagination
+-----------------------------------------*/
+
+
+/*---------------------------------------
+        MEDIA
+-----------------------------------------*/
+
+@media (max-width:1149px) {
+    div.box-card{
+        width: 340px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 311.5px;
+    }
+    
+    div.box-card img.card{
+        width: 311.5px;
+    }
+
+    div.ContainerHeaderCard div.container-button{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:1079px) {
+    div.box-card{
+        width: 320px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 291.5px;
+    }
+    
+    div.box-card img.card{
+        width: 291.5px;
+    }
+}
+
+@media (max-width:1024px) {
+    div.box-card{
+        width: 310px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 281.5px;
+    }
+    
+    div.box-card img.card{
+        width: 281.5px;
+    }
+}
+
+@media (max-width:991px) {
+
+    section.body {
+        row-gap: 40px;
+    }
+
+    div.ContainerHeaderCard{
+       align-items: start ;
+    }
+
+    div.ContainerHeaderCard div.container-button {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    div.box-card{
+        width: 435px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 406.5px;
+    }
+    
+    div.box-card img.card{
+        width: 406.5px;
+    }
+}
+
+@media (max-width:900px) {
+
+    div.box-card{
+        width: 385px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 356.5px;
+    }
+    
+    div.box-card img.card{
+        width: 356.5px;
+    }
+}
+
+@media (max-width:829px) {
+
+    div.box-card{
+        width: 370px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 341.5px;
+    }
+    
+    div.box-card img.card{
+        width: 341.5px;
+    }
+}
+
+/* @media (max-width:779px) {
+
+    div.box-card{
+        width: 340px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 311.5px;
+    }
+    
+    div.box-card img.card{
+        width: 311.5px;
+    }
+} */
+
+@media (max-width:767px) {
+    div.ContainerHeaderCard div.container-button {
+        width: 80%;
+    }
+
+    div.box-card{
+        width: 445px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 416.5px;
+    }
+    
+    div.box-card img.card{
+        width: 416.5px;
+    }
+}
+
+@media (max-width:699px) {
+    div.ContainerHeaderCard div.container-button {
+        width: 90%;
+    }
+
+    div.box-card{
+        width: 445px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 416.5px;
+    }
+    
+    div.box-card img.card{
+        width: 416.5px;
+    }
+}
+
+@media (max-width:600px) {
+    /* div.ContainerHeaderCard div.container-button {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    } */
+
+    div.box-button1 button {
+        width: 85px;
+    }
+
+    div.box-button2 button svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:549px) {
+    div.ContainerHeaderCard div.container-button {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+
+    div.container-button div.box-button1 {
+        margin: 0 auto;
+        width:90%;
+    }
+
+    div.box-button1 button {
+        width: 33.333%;
+    }
+
+    div.container-button div.box-button2 {
+        margin: 0 auto;
+    }
+
+    div.pagination1 {
+        width: 410px;
+    }
+
+    div.pagination1 button {
+        width: 60px;
+        font-size: 14px;
+    }
+
+    div.pagination1 button svg {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media (max-width:464px) {
+    div.box-card{
+        width: 365px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 336.5px;
+    }
+    
+    div.box-card img.card{
+        width: 336.5px;
+    }
+}
+
+@media (max-width:445px) {
+    div.ContainerHeaderCard {
+        align-items: center;
+    }
+    
+    div.box-button1 button {
+        font-size: 13px;
+    }
+
+    div.pagination1 {
+        width: 320px;
+        gap: 10px;
+        padding: 0 3px;
+    }
+
+    div.pagination1 button {
+        flex-direction: column-reverse;
+    }
+
+    div.pagination1 button.btn2 svg{
+        margin: 0;
+    }
+
+    div.pagination1 button svg {
+        margin-bottom: 3px;
+    }
+
+    div.pagination1 button.btn2{
+        flex-direction: column;
+    }
+
+    div.pagination1 ul li.link {
+        width: 35px;
+    }
+}
+
+@media (max-width:387px) {
+    div.container-button div.box-button1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    div.box-button1 button {
+        font-size: 11.5px;
+    }
+
+    div.box-card{
+        width: 300px;
+    }
+    
+    div.box-card div.box-imag{
+        width: 271px;
+    }
+    
+    div.box-card img.card{
+        width: 271px;
+    }
+}
+
+@media (max-width:334px) {
+    div.box-button1 button {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,83 @@
+/*---------------------------------------
+        style courses page
+-----------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------
+        container page
+-----------------------------------------*/
+
+
+div.title-blog h1 {
+  color: var(--black-color);
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  font-family: var(--body-font-family);
+  margin: 0;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+div.box-card2 {
+  border: 1px solid var(--border-card-courses);
+  border-radius: 8px;
+  padding: 15px 11px;
+  gap: 10px;
+  box-shadow: 0px 0.89px 18.69px 0px var(--shadow-courses-card1), 0px 8.9px 12.46px 0px var(--shadow-courses-card2);
+  background-color: var(--body-background-color);
+}
+
+div.box-card2 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--darck-color);
+
+}
+div.box-card2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--darck-color);
+
+}
+
+.card-body .card-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  height: 50px;
+}
+
+.card-info a p{
+  color: #29abe2;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.98px;
+}
+
+.card-info a svg{
+  margin-top: 3px;
+}
+
+/*---------------------------------------
+        CARD 
+-----------------------------------------*/
+
+@media (max-width:1400px) {
+  .card .box-card2 {
+    height: 375px;
+  }
+}
+/* dont work in 575 ??? */
+@media (max-width:575px) {
+  .card .box-card2 {
+    height: 525px;
+  }
+}

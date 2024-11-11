@@ -1,0 +1,27 @@
+/node_modules
+/public/build
+/public/docs
+/public/hot
+/public/storage
+/public/module_images
+/public/modules
+/public/temp/*
+/storage/*.key
+/vendor
+/.env
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+.composer.lock
+/storage/logs/laravel.log
+# /lang/en
+# /lang/ar
+/.note
+/.temp
+Modules/**/package-lock.json

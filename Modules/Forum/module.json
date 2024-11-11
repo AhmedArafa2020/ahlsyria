@@ -1,0 +1,12 @@
+{
+    "name": "Forum",
+    "alias": "forum",
+    "description": "Our LMS forum feature facilitates dynamic discussions and collaborative learning. Engage with fellow learners and instructors, share insights, ask questions, and exchange ideas in a vibrant and interactive online community. Enhance your learning experience by participating in lively discussions and gaining valuable perspectives from diverse perspectives.",
+    "thumbnail": "forum.png",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Forum\\Providers\\ForumServiceProvider"
+    ],
+    "files": []
+}

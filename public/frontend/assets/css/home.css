@@ -1,0 +1,454 @@
+
+/* STYLE home page */
+
+
+/*---------------------------------------
+          HERO SECTION             
+-----------------------------------------*/
+
+main section.hero-section {
+    background-color: var(--primary-color);
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+main section.hero-section h1.title{
+    color: var(--white-color);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76px;
+}
+
+main section.hero-section p.subtitle{
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+main section.hero-section .box-input {
+    background-color: var(--search-input);
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 0px 15px;
+    margin-bottom: 0;
+    height: 60px;
+    color: var(--white-color);
+}
+
+main section.hero-section .box-input span.input-icon{
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    color: var(--white-color);
+}
+
+main section.hero-section input[type="search"] {
+    border: 0 ;
+    box-shadow: none ;
+    margin-bottom: 0 ;
+    padding-left: 0 ;
+    background-color: transparent ;
+    color: var(--white-color) !important;
+    appearance: none;
+}
+
+main section.hero-section input::placeholder{
+    color: var(--white-color);
+    opacity: .45;
+}
+
+main section.hero-section input[type="search"]:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px inherit inset;
+    -webkit-text-fill-color: var(--white-color) !important;
+    transition: background-color 5000s ease-in-out 0s;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    margin-left: 20px !important;
+    color: var(--white-color);
+}
+
+main section.hero-section input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FFFFFF'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+
+main section.hero-section input[type="search"]::-webkit-search-cancel-button:hover {
+    transform: scale(1.1);
+}
+
+main section.hero-section button[type="submit"] {
+    background-color: var(--white-color);
+    border: 0;
+    border-radius: 100px !important;
+    color: #000;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+main section.hero-section button[type="submit"]:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+main section.hero-section button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/*---------------------------------------
+  TOPICS              
+-----------------------------------------*/
+
+.featured-section {
+    background-color: var(--primary-color);
+    border-radius: 0 0 32px 32px;
+    height: 550px;
+}
+
+.blur-img {
+    padding: 15px;
+    background: #FFFFFF26;
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    max-width: 1050px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    box-shadow: 0 1rem 5rem -1rem var(--Shadow-color)
+}
+
+/*---------------------------------------
+          FAQ SECTION             
+-----------------------------------------*/
+
+main section.faq-section{
+    margin-top: 15rem;
+}
+
+main section.faq-section div.box-title{
+    height: 100%;
+}
+
+main section.faq-section div.box-title h2{
+    color: var(--title-text-color);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76px;
+}
+
+main section.faq-section div.box-title p{
+    color: var(--p-color);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 41px;
+}
+
+/*---------------------------------------
+          explore SECTION             
+-----------------------------------------*/
+
+main h2.title2{
+    color: var(--title-text-color);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76px;
+}
+
+.custom-block {
+    background-color: var(--body-background-color);
+    border-radius: 28px;
+    padding: 30px 30px 40px;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-between;
+    max-width: 352px;
+    height: 540px;
+    box-shadow: 0 1rem 5rem -1rem var(--Shadow-color);
+}
+
+div.custom-block a{
+    color: inherit;
+    text-decoration: none;
+}
+
+div.custom-block h3.title-custom{
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.custom-text-style {
+    color: var(--p-color);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 41px;
+}
+
+/*---------------------------------------
+          values SECTION             
+-----------------------------------------*/
+
+.box-values{
+    height: 100%;
+}
+
+.box-values .values{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 5px;
+}
+
+.box-values .value{
+    width:300px;
+    height: 180px;
+    padding: 10px 5px;
+}
+
+.box-values .value h4{
+    color: var(--h-primary-color);
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.box-values .value p{
+    color: var(--p-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+.box-img{
+    width: 450px;
+    height: 445px;
+    padding-right: 50px;
+}
+
+/*---------------------------------------
+         MEDIA            
+-----------------------------------------*/
+@media (max-width:1199px){
+    .custom-text-style {
+        font-size: 20px;
+    }
+
+    div.custom-block h3.title-custom {
+        font-size: 30px;
+    }
+
+    .box-values1{
+        width: 90%;
+    }
+
+    .featured-section {
+        height: 496px;
+    }
+}
+
+@media(max-width:1024px){
+
+    main section.faq-section{
+        margin-top: 13rem;
+    }
+
+    .featured-section{
+        height: 490px;
+    }
+
+    .custom-text-style {
+        font-size: 20px;
+    }
+
+    main h2.title2{
+        margin-bottom: 1rem !important;
+    }
+
+    div.custom-block h3.title-custom{
+        font-size: 30px;
+        margin-bottom: 2rem !important;
+    }
+
+    .box-values1{
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .box-img{
+        padding-right: 0px;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:991px){
+    .featured-section{
+        height: 380px;
+    }
+}
+
+@media(max-width:834px){
+    main section.faq-section{
+        margin-top: 9.5rem;
+        margin-bottom: 5rem !important;
+    }
+
+    main section.faq-section div.box-title p.p-faq{
+        margin-bottom: 30px;
+    }
+
+    .featured-section{
+        height: 330px;
+    }
+
+    .blur-img {
+        margin-top: 0;
+    }
+
+    .custom-block {
+    margin-top: 35px;
+    }
+
+    .box-title2{
+        margin-bottom: 2rem !important;
+    }
+
+    .custom-text-style {
+        font-size: 22px;
+    }
+
+    main nav.nav div.box-icon a.icon-nav span.number-icon{
+        bottom: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-section {
+        height: 245px;
+    }
+}
+
+@media (max-width: 660px) {
+    .featured-section {
+        height: 250px;
+    }
+}
+
+@media(max-width:480px){
+    main section.hero-section h1.title{
+        font-size: 55px;
+    }
+
+    main section.hero-section p.subtitle{
+        font-size: 20px;
+    }
+
+    .custom-text-style {
+        font-size: 20px;
+    }
+
+    .featured-section {
+        height: 195px;
+    }
+
+    .blur-img {
+        width: 90%;
+    }
+
+    .box-img{
+        padding-left: 0px;
+    }
+
+    main section.faq-section div.box-title p.p-faq {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:440px){
+
+    .featured-section {
+        height: 177px;
+    }
+
+    main h2.title2 {
+        font-size: 50px;
+    }
+
+    .box-img {
+        width: 400px;
+        height: 405px;
+    }
+}
+
+@media(max-width:400px){
+    main section.faq-section{
+        margin-top: 5rem;
+    }
+
+    main h2.title2{
+        font-size: 50px;
+        margin-bottom: 1rem !important;
+    }
+
+    .box-img {
+        width: 360px;
+        height: 400px;
+    }
+}
+
+@media(max-width:360px){
+    .featured-section {
+        height: 145px;
+    }
+
+    .box-title2{
+        margin: 25px 0 0 !important;
+    }
+
+    main h2.title2{
+        font-size: 40px;
+    }
+
+    .box-img {
+        width: 320px;
+        height: 340px;
+    }
+
+    main section.hero-section input::placeholder{
+        font-size: 15px;
+    }
+
+    main section.faq-section div.box-title p.p-faq {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:330px){
+
+    .featured-section {
+        height: 135px;
+    }
+
+    .box-img {
+        width: 300px;
+        height: 320px;
+    }
+}

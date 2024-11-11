@@ -1,0 +1,92 @@
+
+/* page */
+
+.title{
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  color: var(--black-color);
+}
+
+.title2{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 40px;
+  color: var(--black-color);
+}
+
+.inquiry{
+  background-color: var(--card-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inquiry img {
+  width: 150px;
+}
+
+.inquiry h5{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+  color: var(--black-color);
+}
+
+.inquiry p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--p-color);
+}
+
+.inquiry button.btn{
+  background-color: var(--primary-color);
+  padding: 0.5rem 5rem;
+}
+
+.inquiry button.btn:hover {
+  background-color: var(--custom-btn-bg-hover-color);
+}
+
+
+.discussions .card {
+  background-color: var(--card-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.discussions .card img {
+  width: 85px;
+}
+
+.discussions .card .label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--black-color);
+}
+
+.discussions .card .info5{
+  font-size: 0.85rem;
+  color: var(--p-color);
+}
+
+.info-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.info-content svg{
+  width: 14px;
+  height: 18px;
+}
+
+.info-content p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
